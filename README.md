@@ -7,18 +7,18 @@
 ### 1) Role-Based Access Control
 
 1. In the **Entra ID** dropdown select **Roles & Admins**
-2. Find and select **User Administrator** then select **+ Add Assignments**
+2. Find and select **User Administrator** then select **Add Assignments**
 3. Select **John Smith** then **Add**
 
 <p align="center">
-  <img width="867" height="385" alt="image" src="https://github.com/user-attachments/assets/c52395ec-cb55-459f-b608-a5b583fcccb7" />
+  <img width="837" height="377" alt="image" src="https://github.com/user-attachments/assets/464cf4be-1a72-42f9-b6db-23880f8d9571" />
 </p>
 
 4. Select the **Roles & Admins** tab then select **Helpdesk Administrator**
 5. Select **+Add Assignments** then select **Tyler Novak** then **Add**
 
 <p align="center">
-  <img width="870" height="378" alt="image" src="https://github.com/user-attachments/assets/42739624-4450-4a02-a0ba-8334510ffe18" />
+  <img width="840" height="382" alt="image" src="https://github.com/user-attachments/assets/9066cdf0-db51-45ec-a9e0-f297752ee118" />
 </p>
 
 6. Open the **Users** tab then select **John Smith**
@@ -40,7 +40,7 @@
 ### 2) Administrative Units
 
 1. In the **Entra ID** dropdown select **Roles & Admins**
-2. Select the **Admin Units** tab the press **+ Add**
+2. Select the **Admin Units** tab the press **Add**
 3. Create an **Administrative Unit** with the following information then **Create:**
    - **Name:** AU-IT-Department
    - **Description:** Scoped Administrative Unit for IT Department Users
@@ -49,12 +49,38 @@
   <img width="652" height="472" alt="image" src="https://github.com/user-attachments/assets/54260a0a-8631-4e30-80eb-712b767736ad" />
 </p>
 
-4. On the **Admin Units** page select **AU-IT-Department** then select **Add**
+4. On the **Admin Units** page select **AU-IT-Department** then select **Add Member**
 5. Choose **John Smith, Marcus Reed, and Tyler Novak** then press **Select**
 
 <p align="center">
-  <img width="872" height="379" alt="image" src="https://github.com/user-attachments/assets/4e98f329-c4e1-4b9a-9dfc-5fb0fe856eae" />
+  <img width="837" height="361" alt="image" src="https://github.com/user-attachments/assets/c7bf3917-d839-4007-8ca2-5ee1519b2006" />
 </p>
 
-6. Inside the **AU-IT-Department** select **Roles and Administrators**
-7. Choose **Helpdesk Administrator**
+6. In the **Entra ID** dropdown select **Groups** then **New Group**
+7. Create a **group** with the following information then select **Create:**
+   - **Group Type:** Security
+   - **Group Name:** RG-Helpdesk-Admins
+   - **Microsoft Entra Roles can be Assigned to the Group:** Yes
+   - **Members:** Marcus Reed
+  
+<p align="center">
+  <img width="715" height="600" alt="image" src="https://github.com/user-attachments/assets/04f09e2d-7716-4a79-8ba8-731147fbdb93" />
+</p>
+
+8. In the **Entra ID** dropdown select **Roles & Admins**
+9. Select **Helpdesk Administrator** then **Add Assignments**
+10. Press the **Groups** tab then select **RG-Helpdesk-Admins** then press **Add**
+
+<p align="center">
+  <img width="837" height="400" alt="image" src="https://github.com/user-attachments/assets/dfef90dd-93eb-42cc-a151-ce5f67824cce" />
+</p>
+
+11. In the **Entra ID** dropdown select **Users** then select **Marcus Reed**
+12. Select the **Assigned Roles** tab and confirm the **Helpdesk Administrator** role appears
+
+<p align="center">
+  <img width="809" height="331" alt="image" src="https://github.com/user-attachments/assets/90932d84-ab15-461b-ba7f-00c36cc51dfa" />
+</p>
+
+---
+
