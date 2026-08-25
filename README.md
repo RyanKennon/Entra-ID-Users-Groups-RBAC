@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/3f788404-0958-4c94-a27b-f6ad5c86a1ca" />
+  <img src="Images/Entra%20ID%20Header.png" width="600" height="400">
 </p>
 
 # Entra ID Users, Groups, & RBAC
@@ -48,28 +48,28 @@ Built-in Entra ID roles grant users specific administrative permissions across t
 3. Select **John Smith** then **Add**
 
 <p align="center">
-  <img width="837" height="377" alt="image" src="https://github.com/user-attachments/assets/464cf4be-1a72-42f9-b6db-23880f8d9571" />
+  <img src="Images/Image%201.png" img width="837" height="377" alt="image">
 </p>
 
 4. Select the **Roles & Admins** tab then select **Helpdesk Administrator**
 5. Select **+Add Assignments** then select **Tyler Novak** then **Add**
 
 <p align="center">
-  <img width="840" height="382" alt="image" src="https://github.com/user-attachments/assets/9066cdf0-db51-45ec-a9e0-f297752ee118" />
+  <img src="Images/Image%202.png" img width="840" height="382" alt="image">
 </p>
 
 6. Open the **Users** tab then select **John Smith**
 7. Select the **Assigned Roles** tab and confirm the **User Administrator** role appears
 
 <p align="center">
-  <img width="984" height="292" alt="image" src="https://github.com/user-attachments/assets/0055336b-289d-47a9-a08f-b8cca2f4a4f0" />
+  <img src="Images/Image%203.png" img width="984" height="292" alt="image">
 </p>
 
 8. Open the **Users** tab then select **Tyler Novak**
 9. Select the **Assigned Roles** tab and confirm the **Helpdesk Administrator** role appears
 
 <p align="center">
-  <img width="974" height="288" alt="image" src="https://github.com/user-attachments/assets/66444f75-2697-4e2e-a0c3-0851eb35c3af" />
+  <img src="Images/Image%204.png" img width="974" height="288" alt="image">
 </p>
 
 ---
@@ -85,14 +85,14 @@ Administrative Units allow administrative roles to be scoped to a specific subse
    - **Description:** Scoped Administrative Unit for IT Department Users
   
 <p align="center">
-  <img width="652" height="472" alt="image" src="https://github.com/user-attachments/assets/54260a0a-8631-4e30-80eb-712b767736ad" />
+  <img src="Images/Image%205.png" img width="652" height="472" alt="image">
 </p>
 
 4. On the **Admin Units** page select **AU-IT-Department** then select **Add Member**
 5. Choose **John Smith, Marcus Reed, and Tyler Novak** then press **Select**
 
 <p align="center">
-  <img width="837" height="361" alt="image" src="https://github.com/user-attachments/assets/c7bf3917-d839-4007-8ca2-5ee1519b2006" />
+  <img src="Images/Image%206.png" img width="837" height="361" alt="image">
 </p>
 
 6. In the **Entra ID** dropdown select **Groups** then **New Group**
@@ -103,7 +103,7 @@ Administrative Units allow administrative roles to be scoped to a specific subse
    - **Members:** Marcus Reed
   
 <p align="center">
-  <img width="715" height="600" alt="image" src="https://github.com/user-attachments/assets/04f09e2d-7716-4a79-8ba8-731147fbdb93" />
+  <img src="Images/Image%207.png" img width="715" height="600" alt="image">
 </p>
 
 8. In the **Entra ID** dropdown select **Roles & Admins**
@@ -111,14 +111,14 @@ Administrative Units allow administrative roles to be scoped to a specific subse
 10. Press the **Groups** tab then select **RG-Helpdesk-Admins** then press **Add**
 
 <p align="center">
-  <img width="837" height="400" alt="image" src="https://github.com/user-attachments/assets/dfef90dd-93eb-42cc-a151-ce5f67824cce" />
+  <img src="Images/Image%208.png" img width="837" height="400" alt="image">
 </p>
 
 11. In the **Entra ID** dropdown select **Users** then select **Marcus Reed**
 12. Select the **Assigned Roles** tab and confirm the **Helpdesk Administrator** role appears
 
 <p align="center">
-  <img width="809" height="331" alt="image" src="https://github.com/user-attachments/assets/90932d84-ab15-461b-ba7f-00c36cc51dfa" />
+  <img src="Images/Image%209.png" img width="809" height="331" alt="image">
 </p>
 
 ---
@@ -135,7 +135,7 @@ Dynamic groups automatically manage membership based on rules evaluated against 
    - **Membership Type** Dynamic User
   
 <p align="center">
-  <img width="700" height="543" alt="image" src="https://github.com/user-attachments/assets/b23dd12b-faa0-4d69-a640-b4997aca7138" />
+  <img src="Images/Image%2010.png" img width="700" height="543" alt="image">
 </p>
 
 3. Click **Add Dynamic Query**
@@ -145,7 +145,7 @@ Dynamic groups automatically manage membership based on rules evaluated against 
    - **Value:** IT
   
 <p align="center">
-  <img width="883" height="541" alt="image" src="https://github.com/user-attachments/assets/ab6cd2b0-f60e-46a8-ae69-a1b810ba54f5" />
+  <img src="Images/Image%2011.png" img width="883" height="541" alt="image">
 </p>
 
 5. Press **save** then **Create**
@@ -153,7 +153,7 @@ Dynamic groups automatically manage membership based on rules evaluated against 
 7. Confirm **John Smith, Marcus Reed, and Tyler Novak** appear on the **Direct Members** page
 
 <p align="center">
-  <img width="868" height="448" alt="image" src="https://github.com/user-attachments/assets/10b7228f-2ad1-480b-a504-7e1137696bdd" />
+  <img src="Images/Image%2012.png" img width="868" height="448" alt="image">
 </p>
 
 ---
@@ -167,7 +167,7 @@ Group-based licensing allows licenses to be assigned once at the group level rat
 3. Add **Marcus Reed** then press **Select**
 
 <p align="center">
-  <img width="870" height="349" alt="image" src="https://github.com/user-attachments/assets/7b94a019-880b-43c5-926b-382558fcd23d" />
+  <img src="Images/Image%2013.png" img width="870" height="349" alt="image">
 </p>
 
 4. In the **SG-IT-Staff** group open the **licenses** page then press the **Go to M365 Admin Center** link
@@ -176,7 +176,7 @@ Group-based licensing allows licenses to be assigned once at the group level rat
 7. Go to the **Licenses and Apps** tab then check **Microsoft Entra ID P2** then **Save Changes** then **Save**
 
 <p align="center">
-  <img width="772" height="605" alt="image" src="https://github.com/user-attachments/assets/c7563e29-d5ce-48f8-b7e9-dbcfffd6b526" />
+  <img src="Images/Image%2014.png" img width="772" height="605" alt="image">
 </p>
 
 8. In the **Entra ID** dropdown select **User**
@@ -184,7 +184,7 @@ Group-based licensing allows licenses to be assigned once at the group level rat
 10. Confirm the **Microsoft Entra ID P2** license appears
 
 <p align="center">
-  <img width="834" height="275" alt="image" src="https://github.com/user-attachments/assets/04624722-af0d-4a30-9d7f-c6fdeba7d4ba" />
+  <img src="Images/Image%2015.png" img width="834" height="275">
 </p>
 
 ---
